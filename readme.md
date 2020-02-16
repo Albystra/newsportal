@@ -1,2 +1,2 @@
 NEWSPORTAL
-by Albystra & ???
+by Albystra & NazarKotov
