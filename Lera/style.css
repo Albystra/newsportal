@@ -1,0 +1,11 @@
+.row>* {
+    border: 1px solid black;
+}
+
+#newsbody>.row {
+    height: 1125px;
+}
+
+#footer>.row {
+    height: 120px;
+}
