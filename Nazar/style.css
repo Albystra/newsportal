@@ -1,35 +1,34 @@
-#header{
+/* #header{
     margin-top: 0px;
-    background:#434B4D	; /* Цвет фона */
-    /* width: 1920px; */
+    background:red	;
+    width: 1920px;
     height:160px
 
 }
   
 #navbar{
-    margin-left: 300px; /* делаем отступы с левого края */
-    margin-right:300px;  /* делаем отступы с правого края */
-    margin-top: 10px; /* делаем отступы с верхнего края */
-    background:#434B4D	; /* Цвет фона */
+    margin-left: 300px; 
+    margin-right:300px;  
+    margin-top: 10px;
+    background: #434B4D; 
     width: 1320px;
     height:62px
 
 
 }
 
-#content{
-    margin-left: 300px; /* делаем отступы с левого края */
-    margin-right:300px;  /* делаем отступы с правого края */
-    margin-top:50px; /* делаем отступы с верхнего края */
-    background:whitesmoke; /* Цвет фона */
-    width: 1320px;
-    height:100%;
+.content{
+
+    @extend .container;
+    margin-left: 100px;
+    margin-right: 100px;
+
 }
 
 
 #footer{
     margin-bottom: 0px;
-    background:#434B4D	; /* Цвет фона */
+    background:#434B4D;
     width: 1920px;
     height:160px
 
@@ -42,4 +41,59 @@
 }
 #news_hot{
 
+} */
+.content {
+    @extend .container;
+    margin-left: 300px;
+    margin-right: 300px;
 }
+
+.element-hot {
+    padding: 15px;
+    background-color: #484E4A;
+    border-radius: 7px;
+}
+
+.element-right {
+    float: right;
+    padding: 10px;
+    background-color: #484E4A;
+    width: 45%;
+    height: 200px;
+    border-radius: 7px;
+}
+
+.NameText {
+    color: snow;
+    font-size: 30px;
+    margin-top: 20px;
+    height: 120px;
+    position: relative;
+}
+
+.category {
+    font-size: 16px;
+    color: white;
+    background-color: #D5D6E5;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.timeAgo {
+    float: right;
+    font-size: 18px;
+    color: #EDEEFF;
+    margin-right: 10px;
+}
+
+.author {
+    float: left;
+    font-size: 18px;
+    color: #EDEEFF;    margin-right: 10px;
+}
+
+.nameTag {
+    font-size: 72px;
+    color: #4C4C4C;
+
+} 

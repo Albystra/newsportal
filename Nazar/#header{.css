@@ -1,0 +1,45 @@
+#header{
+    margin-top: 0px;
+    background:#434B4D	; /* Цвет фона */
+    /* width: 1920px; */
+    height:160px
+
+}
+  
+#navbar{
+    margin-left: 300px; /* делаем отступы с левого края */
+    margin-right:300px;  /* делаем отступы с правого края */
+    margin-top: 10px; /* делаем отступы с верхнего края */
+    background:#434B4D	; /* Цвет фона */
+    width: 1320px;
+    height:62px
+
+
+}
+
+#content{
+    margin-left: 300px; /* делаем отступы с левого края */
+    margin-right:300px;  /* делаем отступы с правого края */
+    margin-top:50px; /* делаем отступы с верхнего края */
+    background:whitesmoke; /* Цвет фона */
+    width: 1320px;
+    height:100%;
+}
+
+
+#footer{
+    margin-bottom: 0px;
+    background:#434B4D	; /* Цвет фона */
+    width: 1920px;
+    height:160px
+
+
+}
+
+#news_block{
+
+
+}
+#news_hot{
+
+}
