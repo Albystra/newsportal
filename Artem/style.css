@@ -1,0 +1,60 @@
+.content {
+    @extend .container;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.element-hot {
+    padding: 15px;
+    background-color: #484E4A;
+    border-radius: 7px;
+}
+
+.element-right {
+    float: right;
+    padding: 10px;
+    background-color: #484E4A;
+    width: 45%;
+    height: 200px;
+    border-radius: 7px;
+}
+
+.NameText {
+    font-family: 'Bellota Text', cursive;
+    color: snow;
+    font-size: 30px;
+    margin-top: 20px;
+    height: 120px;
+    position: relative;
+}
+
+.category {
+    font-size: 16px;
+    color: white;
+    background-color: #D5D6E5;
+    padding: 5px;
+    border-radius: 100px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.timeAgo {
+    float: right;
+    font-size: 18px;
+    color: #EDEEFF;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+}
+
+.author {
+    float: left;
+    font-size: 18px;
+    color: #EDEEFF;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+}
+
+.nameTag {
+    font-size: 72px;
+    color: #4C4C4C;
+    font-family: 'Bellota Text', cursive;
+}
