@@ -1,22 +1,21 @@
 .content {
     @extend .container;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .element-hot {
     padding: 15px;
-    background-color: #484E4A;
+    background: #1E1E1E;
     border-radius: 7px;
+    margin: 10px;
+    opacity: 0.8;
+    transition: 0.5s ease;
 }
 
-.element-right {
-    float: right;
-    padding: 10px;
-    background-color: #484E4A;
-    width: 45%;
-    height: 200px;
-    border-radius: 7px;
+.row :hover{
+    opacity: 1;
+    transition: 0.4s ease;
 }
 
 .NameText {
@@ -57,4 +56,9 @@
     font-size: 72px;
     color: #4C4C4C;
     font-family: 'Bellota Text', cursive;
+}
+
+
+.tcolor{
+    color:  #484E4A;
 }
