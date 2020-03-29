@@ -1,12 +1,13 @@
 .row>* {
     border: 1px solid black;
+    background-color: #D5D5D5;
 }
 
-#newsbody>.row {
+/* #newsbody>.row {
     height: 1125px;
     background-color: #F5F5F5
 }
 
 #footer>.row {
     height: 120px;
-}
+} */
